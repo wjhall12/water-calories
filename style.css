@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.info, .status {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: #eef;
+}
+
+#water-display, #calories-display, #status-display {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #222;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#drink-water {
+    background-color: #3498db;
+    color: white;
+}
+
+#walk-steps {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
